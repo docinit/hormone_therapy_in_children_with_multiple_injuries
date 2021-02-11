@@ -30,16 +30,15 @@ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 GNU General Public License for more details.<br>
 You should have received a copy of the GNU General Public License
 along with this program.  If not, see http://www.gnu.org/licenses/<br>
-
-Данное программа (код на Python), файлы и проведенный статистический анализ позволяют
-оценть влияние глюкокортикоидной терапии на выживаемость и 
-клинико-лабораторные показатели в ходе лечения детей с тяжелой
-комбинированной травмой.<br>
 The Program is presented as several files presented as python-notebooks, text-files and others.
 All files presented here are unseparated parts of The Program
 with the same legal base, namely GNU General Public License. All files are available on the link:
 https://github.com/docinit/hormone_therapy_in_children_with_multiple_injuries<br>
 <br>
+Данное программа (код на Python), файлы и проведенный статистический анализ позволяют
+оценть влияние глюкокортикоидной терапии на выживаемость и 
+клинико-лабораторные показатели в ходе лечения детей с тяжелой
+комбинированной травмой.<br>
 Эта программа и/или все другие файлы, распространяющиеся с ней и выложенные
 в данном репозитории являются свободным программным обеспечением;
 вы можете распространять и/или модифицировать ее на
