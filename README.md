@@ -83,8 +83,9 @@ GNU General Public License, откройте и ознакомьтесь с не
     * database creation;
   * interpretation of gathered clinical data.
  2. Aleksandrovich Yuriy Stanislavovich
-  * data understanding;
-  * survey planning.
+  * provided expert opinion;
+  * survey planning;
+  * results interpretation.
  3. Lipin Andrei Sergeevich, andrey.s.lipin@gmail.com
   * data analysis:
     * data understanding;
@@ -101,10 +102,10 @@ GNU General Public License, откройте и ознакомьтесь с не
   * отбор пациентов,
   * создание базы данных;
   * клиническая интерпретация собранных данных.
- 2. Александрович Юрий Станиславович
-  * экспертная оценка этапов исследования, значимости результатов;
-   * разработка плана исследования;
-   * клиническая интерпретация результатов работы.
+2. Александрович Юрий Станиславович
+ * экспертная оценка этапов исследования, значимости результатов;
+ * разработка плана исследования;
+ * клиническая интерпретация результатов работы.
 3. Липин Андрей Сергеевич, andrey.s.lipin@gmail.com:
  * разработка плана исследования;
  * анализ данных:
