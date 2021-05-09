@@ -1,60 +1,115 @@
 # Клинико-лабораторные эффекты глюкокортикоидной терапии у детей с тяжелой сочетанной травмой
 Исследуются вопросы влияния гормональной терапии дексаметазоном и преднизолоном на клинико-лабораторные показатели и исходы заболевания у детей с тяжелой сочетанной травмой
-Авторы:
-1. Пшениснов Константин Викторович, psh_k@mail.ru:
-* идея и разработка плана исследования;
-* сбор данных:
- * отбор пациентов,
- * создание базы данных;
-* клиническая интерпретация данных.
-2. Липин Андрей Сергеевич, andrey.s.lipin@gmail.com:
-* анализ данных:
- * очистка данных,
- * преобразование данных,
- * генерация новых признаков,
- * анализ данных,
- * разработка кода;
-* клиническая интерпретация данных.
 
+**Copyright (C) 2020, by Konstantin Pshenisnov, Yurii Aleksandrovich and Andrei Lipin**
+
+This application (further - The Program) is a method to execute
+analysis of clinic and alaboratory features in multiple injured
+children while treatment in ICU by prednisolone and dexamethazone.
+This software is an example of realisation of analytic methods by
+which we conducted our survey, created patient samples and making
+comparison analysis between them.
 This application (code in Python) and all other files in this repository allows us to assess
 outcomes and treatment effects of hormone therapy on children with
 combined severe injury treated in Intensive Care Units.<br>
-Copyright (C) 2020, by Konstantin Pshenisnov and Andrei Lipin
+
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
 the Free Software Foundation, either version 3 of the License, or
-(at your option) any later version.<br>
+(at your option) any later version.
+
+The Program is presented in several files;
+one of them is a python-notebook with the Python3-based code and
+is an unseparated part of The Program with the same
+legal base, namely GNU General Public License.
+All other files distributed as unseparated parts of this Program
+are available on the link:
+https://github.com/docinit/hormone_therapy_in_children_with_multiple_injuries
+
 This program is distributed in the hope that it will be useful,
 but WITHOUT ANY WARRANTY; without even the implied warranty of
 MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-GNU General Public License for more details.<br>
+GNU General Public License for more details.
+
 You should have received a copy of the GNU General Public License
-along with this program.  If not, see http://www.gnu.org/licenses/<br>
-The Program is presented as several files presented as python-notebooks, text-files and others.
-All files presented here are unseparated parts of The Program
-with the same legal base, namely GNU General Public License. All files are available on the link:
-https://github.com/docinit/hormone_therapy_in_children_with_multiple_injuries<br>
-<br>
+along with this program.  If not, see http://www.gnu.org/licenses/
+
+**Авторские права (C) 2020: Константин Пшениснов, Юрий Александрович, Андрей Липин**
+
+Данное приложение (далее - Приложение) является методом анализа клинико-лабораторных данных
+у пациентов с тяжелой сочетанной травмой, которые получали или не получали
+кортикостероидную терапию преднизолоном и/или дексаметазоном.
+В данном Приложении описаны ход работы, методы формирования выборок
+и подходы к проведению аналитической работы с этими выборками.
+Также представлен метод реализации проведения данного анализа
+с помощью Python v.3 и дополнительных библиотек.
+
+Это Приложение - свободное программное обеспечение;
+вы можете распространять и/или модифицировать ее на
+условиях лицензии GNU General Public License,
+опубликованной Free Software Foundation, а именно ее версии 3
+или, по Вашему выбору, любой более поздней.
+
 Данное программа (код на Python), файлы и проведенный статистический анализ позволяют
 оценть влияние глюкокортикоидной терапии на выживаемость и 
 клинико-лабораторные показатели в ходе лечения детей с тяжелой
 комбинированной травмой.<br>
-Эта программа и/или все другие файлы, распространяющиеся с ней и выложенные
-в данном репозитории являются свободным программным обеспечением;
-вы можете распространять и/или модифицировать ее на
-условиях лицензии GNU General Public License,
-опубликованной Free Software Foundation, а именно ее версии 3
-или, по Вашему выбору, любой более поздней.<br>
-Эти файлы распространяются в надежде на их пользу,
+Программа представлена в виде нескольких файлов
+один из них - python-ноутбук с кодом на языке программирования Python.
+он является неотъемлемой частью данной Программы.
+Все остальные файлы, являющиеся неотъемлемой частью данной Программы и
+распространяющиеся вместе с этой Программой,
+предоставляются на условиях той же лицензии
+GNU General Public License, что и Программа.
+Программа и файлы, распространяющиеся с ней, доступны по адресу
+https://github.com/docinit/hormone_therapy_in_children_with_multiple_injuries
+
+Эта программа распространяется в надежде на ее пользу,
 но БЕЗ ЛЮБЫХ ГАРАНТИЙ; в т.ч. без финансовых гарантий или
 гарантии пользы в практическом применении.
 Если Вы хотите более детально ознакомиться, это можно сделать,
 открыв полный текст GNU General Public License.
+
 Вам должны предоставить копию GNU General Public License вместе
 с этой программой. В случае, если вы не получили копию
 GNU General Public License, откройте и ознакомьтесь с ней
-на http://www.gnu.org/licenses/<br>
-Программа представлена в виде файлов python-ноутбуков, текстовых файлов и других.
-Все файлы представленные в данном репозитории, являются неотъемлемой частью 
-Программы и предоставляются на условиях той же лицензии
-GNU General Public License, что и программа.
+на http://www.gnu.org/licenses/
+
+#### Authors
+1. Pshenisnov Konstantin Viktorovich, psh_k@mail.ru
+  * an idea creator and investigation plan development;
+  * data gathering:
+    * patient selection,
+    * database creation;
+  * interpretation of gathered clinical data.
+ 2. Aleksandrovich Yuriy Stanislavovich
+  * data understanding;
+  * survey planning.
+ 3. Lipin Andrei Sergeevich, andrey.s.lipin@gmail.com
+  * data analysis:
+    * data understanding;
+    * data cleaning,
+    * data transformation,
+    * data generation,
+    * machine learning model creation,
+    * results interpretation.
+
+#### Авторы:
+1. Пшениснов Константин Викторович, psh_k@mail.ru:
+ * идея и разработка плана исследования;
+  * сбор данных:
+  * отбор пациентов,
+  * создание базы данных;
+  * клиническая интерпретация собранных данных.
+ 2. Александрович Юрий Станиславович
+  * экспертная оценка этапов исследования, значимости результатов;
+   * разработка плана исследования;
+   * клиническая интерпретация результатов работы.
+3. Липин Андрей Сергеевич, andrey.s.lipin@gmail.com:
+ * разработка плана исследования;
+ * анализ данных:
+  * очистка данных,
+  * преобразование данных,
+  * генерация новых признаков,
+  * разработка модели машинного обучения;
+  * интерпретация результатов работы.
