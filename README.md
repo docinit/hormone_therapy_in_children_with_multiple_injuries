@@ -92,7 +92,7 @@ GNU General Public License, откройте и ознакомьтесь с не
       * data generation;
       * results interpretation;
     * statistical analysis;
-    * writing.
+    * text writing.
 
 #### Авторы:
 1. Пшениснов Константин Викторович, psh_k@mail.ru:
