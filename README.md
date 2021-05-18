@@ -77,40 +77,38 @@ GNU General Public License, откройте и ознакомьтесь с не
 
 #### Authors
 1. Pshenisnov Konstantin Viktorovich, psh_k@mail.ru
-  * an idea creator and investigation plan development;
-  * data gathering:
-    * patient selection,
-    * database creation;
-  * interpretation of gathered clinical data.
+    * concept and investigation design creation;
+    * data gathering;
+    * data analysis;
+    * text writing;
+    * text redaction.
  2. Aleksandrovich Yuriy Stanislavovich
-  * provided expert opinion;
-  * survey planning;
-  * results interpretation.
+    * text redaction.
  3. Lipin Andrei Sergeevich, andrey.s.lipin@gmail.com
-  * data analysis:
-    * data understanding;
-    * data cleaning,
-    * data transformation,
-    * data generation,
-    * machine learning model creation,
-    * results interpretation.
+    * concept and investigation design creation
+    * data analysis:
+      * data cleaning;
+      * data transformation;
+      * data generation;
+      * results interpretation;
+    * statistical analysis;
+    * writing.
 
 #### Авторы:
 1. Пшениснов Константин Викторович, psh_k@mail.ru:
-  * идея и разработка плана исследования;
-  * сбор данных:
-    * отбор пациентов,
-    * создание базы данных;
-  * клиническая интерпретация собранных данных.
+   * концепция и дизайн исследования;
+   * сбор данных:
+   * обработка данных;
+   * текст работы;
+   * редактирование.
 2. Александрович Юрий Станиславович
-  * экспертная оценка этапов исследования, значимости результатов;
-  * разработка плана исследования;
-  * клиническая интерпретация результатов работы.
+    * редактирование работы.
 3. Липин Андрей Сергеевич, andrey.s.lipin@gmail.com:
-  * разработка плана исследования;
-  * анализ данных:
-    * очистка данных,
-    * преобразование данных,
-    * генерация новых признаков,
-    * разработка модели машинного обучения;
-    * интерпретация результатов работы.
+   * концепция и дизайн исследования;
+   * обработка данных:
+     * очистка данных;
+     * преобразование данных;
+     * генерация новых признаков;
+     * интерпретация результатов работы;
+   * статистическая обработка данных;
+   * текст работы.
